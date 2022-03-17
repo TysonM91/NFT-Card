@@ -1,1 +1,1 @@
-https://tysonm91.github.io/NTF-Card/
+https://tysonm91.github.io/Nft-Card/
