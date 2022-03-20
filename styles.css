@@ -1,66 +1,67 @@
-* {
+/* Page Style  */
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     background-color: hsl(217, 54%, 11%);
 }
 
-img.img1 {
+img.img1{
     max-width: 100%;
-       min-width: 350px;
-       border-radius: 20px;
-       margin-bottom: 25px;
-      }
-
-img.img2 {
-    max-width: 100%;
-       width: 30px;
-       margin-right: 10px;
-       border: 1px solid white;
-       border-radius: 50%;
+    min-width: 350px;
+    border-radius: 20px;
+    margin-bottom: 25px;
 }
 
-h2 {
+img.img2{
+    max-width: 100%;
+    width: 30px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+h2{
     color: white;
     margin-bottom: 25px;
 }
 
-h2:hover {
+h2:hover{
     color: aqua;
 }
 
-p.p1 {
+p.p1{
     color: hsl(215, 51%, 70%);
     margin-bottom: 20px;
 }
 
-p.p2 {
+p.p2{
     color: cyan;
     font-weight:bolder;
     margin-left: 5px;
 }
 
-p.p3 {
+p.p3{
     color: hsl(215, 51%, 70%);
     margin-left: 5px;
 }
 
-p.p4 {
+p.p4{
     color: hsl(215, 51%, 70%);
     margin-right: 10px;
 }
 
-p.p5 {
+p.p5{
     color: white;
 }
 
-p.p5:hover {
+p.p5:hover{
     color: cyan;
 }
 
-hr {
+hr{
     border:0;
     margin:0;
     width:100%;
@@ -69,7 +70,8 @@ hr {
     margin-bottom: 25px;
 }
 
-.container {
+/* Container Style  */
+.container{
    flex-direction: column;
    position: absolute;
    top: 50%;
@@ -83,21 +85,25 @@ hr {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container2 {
+.container2{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
     justify-content: space-between;
 }
 
-.container3 {
+.container2a{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.container4 {
+.container3{
+    display: flex;
+}
+
+.container4{
     display: flex;
     flex-direction: row;
 }
